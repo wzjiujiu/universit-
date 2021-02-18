@@ -1,0 +1,209 @@
+1.	Data una stringa individuare le sottostringhe tra le virgole e inserirle in una lista ordinata.
+
+2.	Dato un Binary Search Tree nel quale per ogni nodo è presente una lista di stringhe, liberare il tutto (free).
+
+3.	Dato un vettore di stringhe dividere in due sottovettori le stringhe che iniziano per vocali e
+
+4.	consonanti (ti da una funzione per il check); ritornare per riferimento i due vettori (allocati di
+
+5.	dimensione corretta, basta leggere una volta la matrice).
+
+6.	Tutte le sequenze di numeri 0-9 lunghe k per cui vengono rispettati dei vincoli (vuole il pruning).
+
+7.	Creare una coda a priorità, in cui la priorità è la distanza dall’origine di un punto nel piano cartesiano.
+
+8.	Dato un vettore di interi mettere gli elementi pari in una lista e quelli dispari in un’altra; tenere le liste ordinate.
+
+9.	Dato un Binary Search Tree in cui ogni nodo ha come Item liste concatenate implementare una funzione freebst() per l’eliminazione dell’intero Binary Search Tree.
+
+10.	Data una matrice con tanti 0, trasformarla in vettore di puntatori a liste in cui indice vettore è riga, nella lista c’è il valore diverso da 0 e colonna.
+
+11.	Cammino / ciclo lunghezza k in un DI.
+
+12.	Da matrice a liste di adiacenza di un grafo.
+
+13.	Lettura file e caricamento in un vettore di struct, passato per riferimento alla funzione che deve fare tutto.
+
+14.	Stack implementato come ADT di I categoria con vettore.
+
+15.	Componenti connesse di un grafo con lista delle adiacenze e per ogni componente contare quanti vertici ha.
+
+16.	Costruisci un ADT lista. In questa lista ricerca un Item e cancellalo.
+
+17.	Cammini semplici tra sorgente e destinazione in un grafo.
+
+18.	Due matrici: le entrate della seconda matrice sono la media delle caselle adiacenti della prima matrice. La seconda matrice è passata come puntatore (***) quindi deve essere allocata dinamicamente nella funzione.
+
+19.	Dato un vertice di un grafo trovare tutti i cicli di lunghezza k.
+
+20.	Data una lista linkata semplice, rimuovere gli elementi la cui posizione in lista è pari.
+
+21.	Dato un grafo si ritorni il numero di cicli presenti lungo un cammino di lunghezza k.
+
+22.	Data una stringa e noto un carattere di terminazione (ad es “#”), dividere la stringa in tutte le sottostringhe separate tra loro dal terminatore, per poi inserire tali sottostringhe in un vettore di stringhe supposto vuoto e passato per riferimento; ritornare infine il numero di sottostringhe trovate. Prototipo: int* funzione(char **stringa, char ***strvett).
+
+23.	Dato un albero N-ario, contare tutti i suoi nodi (suggerimento: implementazione left child – right sibling e utilizzo di una funzione ricorsiva in grado di visitare tutto l’albero).
+
+24.	Implementare un set come ADT di I categoria ed implementare una funzione merge che fonde due set in uno.
+
+25.	Funzione che indichi se è presente un ciclo di lunghezza >= k.
+
+26.	Merge di due liste.
+
+27.	Invertire una lista.
+
+28.	Creare una struttura dati di una lista doppio linkata con FIFO.
+
+29.	Vettore di interi: creare due liste, una con gli elementi pari e una con quelli dispari, mantenendo le liste ordinate.
+
+30.	Dato un vettore con le cifre 0-9, generare tutti gli insiemi di 5 di questi elementi, in modo tale che: A partire dal primo, siano sistemati come pari, dispari, pari, dispari, ecc Ogni elemento della soluzione sia strettamente maggiore del successivo.
+31.	Merge di due stringhe ordinate in una sola sempre ordinata.
+
+32.	Inserimento in hash con linear chaning senza duplicati del valore in input.
+
+33.	Insertion sort su un vettore di puntatori a stringhe.
+
+34.	Inserimento in un Binary Search Tree, con funzione ricorsiva di inserzione.
+
+35.	Dato un vettore di stringhe dividerlo e ritornare due vettori. Il primo conterrà le stringhe inizianti.
+
+36.	per carattere, il secondo quelle inizianti cono numeri.
+
+37.	Dato un grafo implementare la funzione GraphEdges (che ritorna tutti gli archi).
+
+38.	Disposizioni semplici (Considerato un vettore di caratteri con tutte le lettere dell’alfabeto generare tutte le parole di 10 caratteri considerando che in ogni parola una stessa lettera può essere ripetuta massimo 2 volte).
+39.	Selection sort su un vettore di puntatori a stringhe.
+
+40.	Data una matrice di caratteri (vettore di stringhe) allocare dinamicamente un vettore di puntatori a stringa in cui ogni riga ha la lunghezza che serve e non una lunghezza generica.
+41.	Data una matrice R*C con stringhe terminate dal carattere ‘*’, allocarne una dinamica, con le righe di lunghezza pari alla parola da copiare e copiarne il contenuto.
+
+42.	Definire la struct di un nodo di un albero n-ario e scrivere una funzione che ritorni il numero di foglie.
+
+43.	Date due liste ordinate di stringhe, fonderle in una terza mantenendo l’ordine.
+
+44.	Determinazione delle componenti fortemente connesse in un grafo.
+
+45.	Vettore di puntatori a struct di tipo punto, definire la struct punto e leggere da file i punti.
+
+46.	Data una struttura FIFO passata per parametro ritornare un contatore che indica il numero di elementi e stampare.
+
+47.	StackPop con stack implementato come ADT di I classe (vettore).
+
+48.	Find della QuickUnion.
+
+49.	Date 2 stringhe implementare una funzione che copiasse in una terza il contenuto della prima meno le lettere in comune con la seconda.
+
+50.	Trovare la foglia di altezza minima in un Binary Search Tree.
+
+51.	Trovare il grado di un vertice in un grafo implementato con matrice di adiacenze.
+
+52.	Estrazione da buffer circolare.
+
+53.	FIFO come ADT di I classe ed estrazione.
+
+54.	Ricerca in un Binary Search Tree.
+
+55.	Svuotare un vettore dai numeri negativi e ricompattarlo (con complessità lineare).
+
+56.	Compattare una matrice in un vettore di puntatori a interi eliminando tutti gli zeri.
+
+57.	Problema simile a quello dello zaino (powerset).
+
+58.	Data una matrice passata come riferimento calcolare la media dei vaolir locali per ogni punto riga colonna e restituire tutto in una nuova matrice anch’essa passata come riferimento.
+59.	Implementare funzione Heapify.
+
+60.	Trasformare una lista di stringhe in un vettore di stringhe, poi ordinarlo con un sort a piacere.
+
+61.	Dato un Binary Search Tree e un intero k, scrivere una funzione che elimini tutti i figli sinistri a partire dal livello k-esimo in giù.
+
+62.	Ricerca iterativa in un Binary Search Tree.
+
+63.	Inversione di una lista.
+
+64.	Binary Search Tree: funzione che ritorna il numero di nodi che hanno esattamento un figlio.
+
+65.	Inserimento in una coda a priorità.
+
+66.	Stampare a video tutti i cammini semplici di lunghezza k partendo da un vertice dato A.
+
+67.	Inserzione in una lista ordinata.
+
+68.	Dato un Binary Search Tree, funzione in grado di calcolare il numero di: nodi con un solo figlio,numero di nodi sinistri, numero di nodi destri, numero di nodi totali.
+
+69.	Data una struttura wrapper con un intero contenente il numero di stringhe e un puntatore a un vettore di puntatori a stringa, leggi un file contenente delle stringhe, contale, alloca opportunamente la struttura e il vettore, dopo di che inserisci le stringhe nel vettore (è possibile leggere il file più volte).
+70.	Codice inserimento in foglia in un Binary Search Tree.
+
+71.	Data una lista che contiene interi casuali generare altre due liste: una che contenga solo gli interi pari e l’altra solo quelli dispari.
+
+72.	Generare tutti i numeri binari di n elementi di cui almeno d siano 1.
+
+73.	Dato un vettore di puntatori a struct Point{int x; int y} applicare insertion o selection sort su quel vettore in base alla distanza dall’origine.
+
+74.	Scrivere una funzione che dato un grafo ritorni due puntatori a grafi uno con archi a valore positivo e l’altro con quelli a valori negativi.
+
+75.	Wrapper con puntatori a puntatori a struttura, con relativa funzione di allocazione.
+
+76.	Generare delle stringhe con le lettere alfabetiche, ogni lettera può essere ripetuta al massimo p volte e la sequenza di lettere ripetute può essere lunga al massimo q.
+
+77.	Funzione che dato un grafo calcoli tutti i cammini che si possono effettuare da ogni singolo vertice e che abbiano lunghezza minima k.
+
+78.	Generare anagrammi di una stringa, col vincolo di consonanti e vocali non consecutive.
+
+79.	Componenti connesse tramite una ricerca in profondità.
+
+80.	Liste doppio linkate come ADT.
+
+81.	Inserzione in foglia in un Binary Search Tree.
+
+82.	Dato un grafo e un suo vertice di partenza determinare un cammino di lunghezza 5.
+
+83.	Ricerca del massimo in un Binary Search Tree.
+
+84.	HeapSort.
+
+85.	Trasformazione di una matrice di char NxN in un vettore di stringhe allocate dinamicamente della giusta lunghezza.
+
+86.	Implementare funzioni Init, Aggiungi, Estrai di una coda a priorità implementata come ADT di I classe.
+
+87.	Problema di ottimizzazione simile al problema dello zaino.
+
+88.	Verificare se un Binary Search Tree è contenuto in un altro di lunghezza maggiore oppure no.
+
+89.	Codice visita in ampiezza.
+
+90.	Permutazioni semplici.
+
+91.	File di testo con numero di righe e a seguire N righe con cognome e nome. Va inserito tutto in un vettore di puntatori ad Item, allocando stringhe e Item dinamicamente.
+
+92.	Funzione di verifica del gioco Forza4, cioè data una matrice verificare che ci siano 4 ‘1’ consecutivi sulla riga / colonna / diagonale.
+
+93.	Funzione che ritorna il numero di elementi presenti al livello i-esimo di un heap con i dato.
+
+94.	Problema dello zaino discreto, esaustivo, ricorsivo con pruning.
+
+95.	Data una lista eliminare i nodi pari.
+
+96.	Dato un albero rappresentato come left child – right sibling contare il numero di figli di ogni nodo (solo quelli diretti).
+
+97.	Dato un file contenente informazioni su persone (nome e età), inserire i dati in una coda implementata come ADT di I classe salvando i dati letti in una struct persona prima dell’inserzione in coda.
+
+98.	Algoritmo QuickUnion e differenza con Weighted QuickUnion.
+
+
+99.	Inserimento in FIFO con buffer circolare.
+
+100.	Enumerazione di tutti i cammini semplici tra due vertici di un grafo.
+
+101.	Inserimento in un Binary Search Tree in radice.
+
+102.	Inserzione e cancellazione in una lista doppio linkata.
+
+103.	Data una matrice di interi poco densa, trasformarla in una lista di liste in modo che si possa tornare alla matrice iniziale partendo dalla lista.
+
+104.	Dato un grafo, calcolare tutti i cicli non per forza semplici di lunghezza k che partono da un nodo dato.
+
+105.	Ricerca in profondità che rileva cicli, un ciclo può essere costituito da più passaggi sullo stesso vertice (prima versione O(n^2), poi ottimizzare).
+
+106.	Dato un grafo non orientato non pesato e dato un vertice di partenza, contare tutti i cicli anche non semplici di lunghezza k.
+
+107.	Dato un Binary Search Tree contare i nodi che hanno k figli.
