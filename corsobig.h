@@ -20,9 +20,11 @@ private:
 	int orelezione = -1;
 	int orelab = -1;
 	int orees = -1;
-	std::list<Corso> corsianni;
-
+	std::vector<Corso> corsianni;
 	
 
-
 };
+
+
+
+#endif
