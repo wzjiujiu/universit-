@@ -2,6 +2,7 @@
 #define PROF_H
 #include <iostream>
 #include<string>
+#include <sstream>
 
 
 class Prof
@@ -13,6 +14,10 @@ public:
 	std::string getsurname();
 	std::string getmatricola();
 	std::string getemail();
+	std::string generatematricola();
+	void updatename(std::string profnome);
+	void updatesurname(std::string profsurname);
+	void updateemail(std::string email);
 
 
 private:
