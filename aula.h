@@ -2,6 +2,7 @@
 #define AULA_H
 #include <iostream>
 #include <string>
+#include <sstream>
 
 class Aula
 {
@@ -12,6 +13,7 @@ public:
 	std::string getdenominazione();
 	int getcapienzamax();
 	int getcapenzaexam();
+	std::string generateidaula();
 
 private:
 	std::string aulaid = "";
