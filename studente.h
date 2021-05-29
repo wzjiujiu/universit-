@@ -2,6 +2,7 @@
 #define STUDENTE_H
 #include <string>
 #include<iostream>
+#include<sstream>
 
 class Studente
 {
@@ -13,7 +14,10 @@ public:
 	std::string getsurname();
 	std::string getmatricola();
 	std::string getemail();
-
+	std::string generatematricola();
+	void updatename(std::string studentname);
+	void updatesurname(std::string surname);
+	void updteemail(std::string email);
 
 
 private:
