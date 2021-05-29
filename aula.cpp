@@ -29,3 +29,22 @@ int Aula::getcapenzaexam()
 {
 	return this->capienzaexam;
 }
+
+std::string Aula:: generateidaula()
+{
+	int num1 = rand() % 10;
+	int num2 = rand() % 10;
+	char alpha = 'A' + rand() % 26;
+	char alpha1 = 'A' + rand() % 26;
+	
+	std::stringstream ss,ss1;
+	ss << num1;
+	std::string numero1 = ss.str();
+	ss1 << num2;
+	std::string numero2 = ss1.str();
+	std::string let1(1,alpha);
+	std::string let2(1, alpha1);
+
+	std::string aulaid = numero1 + let1 + let2 + numero2;
+	return aulaid;
+}
