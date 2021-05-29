@@ -2,7 +2,7 @@
 #define CORSO_H
 #include <iostream>
 #include <string>
-#include <list>
+#include <vector>
 typedef struct prof
 {
 	std::string matricola;
@@ -25,10 +25,10 @@ private:
 	std::string annoaccademico = "";
 	int attivo = -1;
 	int verspar = -1;
-	std::list<collabprof> collabprofs;
-	int durataesame;
-	int t_entro;
-	int t_esco;
+	std::vector<collabprof> collabprofs;
+	int durataesame=-1;
+	int t_entro=-1;
+	int t_esco=-1;
 	std::string modalita = "";
 	std::string luogo = "";
 
