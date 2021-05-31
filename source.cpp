@@ -1,7 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <iostream>
-#include "studente.h"
 #include <list>
 #include <vector>
 #include <sstream>
@@ -16,6 +12,7 @@
 #include "studentefunctions.h"
 #include "proffunctions.h"
 #include "aulafunctions.h"
+#include "esamefunctions.h"
 
 
 using namespace std;
@@ -27,6 +24,7 @@ std::string getmatricolatit(char* string);
 char* getcollabprofinfo(char* string, int j,int *end);
 vector<string> getcorsoidvec(std::string corsoid);
 vector<Corsostudio> getcorsostudiolist(char* filename,vector<Corsobig> *corsiout);
+
 
 
 int main(int argc, char** argv)
@@ -66,11 +64,12 @@ int main(int argc, char** argv)
 	listaule = getaule(filename);
 	generetedbaule(_strdup("db_aule.txt"), listaule);
 	free(filename);
-	filename = _strdup("db_corsi.txt");
-	getcorsi(filename,&listcorsi);
-	free(filename);
-	filename = _strdup("db_corsi_studio.txt");
-	listcorsistudio = getcorsostudiolist(filename,&listcorsi);
+	//filename = _strdup("db_corsi.txt");
+	//getcorsi(filename,&listcorsi);
+	//free(filename);
+
+	generateannoesamidata(_strdup("2019-2020"), _strdup("2020-1-12|2020-2-29"), _strdup("2020-6-6|2020-7-30"), _strdup("2020-9-1|2020-9-30"));
+	
 	
 	
 		//}
