@@ -1,0 +1,6 @@
+d543600;Alessia;blati;blatia@email.it
+d146040;Hao;zen;zenhao@gmail.com
+d390200;GG;BIBI;GGBIBI@gmail.com
+d292000;Antonio;Blasti;Antonioblasti@gmail.com
+d123820;Alessia;blati;alblati@email.it
+d187160;Hao;zen;haozen@gmail.com
