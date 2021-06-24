@@ -1,0 +1,6 @@
+s633400;Alessio;Maria;mariaam@gmail
+s265000;Haochen;He;wzthomas@gmail.com
+s157240;GG;Alessio;GGalessio@gmail.com
+s114780;Antonio;Bibo;Antoniobibo@gmail.com
+s293580;Alessio;Maria;am.ra@email.it
+s269620;Haochen;He;wzjiujiuzouxian@gmail.com

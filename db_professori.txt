@@ -1,0 +1,11 @@
+d390200;Alessia;blati;blatia@email.it
+d292000;Hao;zen;zenhao@gmail.com
+d123820;GG;BIBI;GGBIBI@gmail.com
+d187160;Antonio;Blasti;Antonioblasti@gmail.com
+d197180;Alessio;GIGI;gigialessio@gmail.com
+d217260;Carmelo;tuffi;tufficarmelo@gmail.com
+d115380;Anna;Palumbo;palumboanna@gmail.com
+d199120;Bibo;Baggings;Bibobagg@gmail.com
+d989400;Serena;Chen;serenachen@gmail.com
+d313220;Alessia;blati;alblati@email.it
+d466400;Hao;zen;haozen@gmail.com
